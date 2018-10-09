@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>out</title>
 </head>
 <body>
 
@@ -15,14 +15,15 @@
 	request.setAttribute("num", a);
 %>
 
-<c:out value="num"></c:out>
-<c:out value="${ num }"></c:out>
+<c:out value="num"></c:out>       <%-- 输出：num --%>
+<c:out value="${ num }"></c:out>  <%-- 输出：10 --%>
 
 <!-- default 默认值  ${ num2 }如果num2没有域属性，输出的是""-->
-<c:out value="${ num2 }" default="北京"></c:out>
+<c:out value="${ num2 }" default="北京"></c:out>   <%-- 输出：北京 --%>
 
+<!-- 指定是否将>、<、&、'、" 等特殊字符进行HTML编码转换后再进行输出。默认值为true 输出文本：<a href='http://www.baidu.com'>百度</a>-->
+<!-- 如果改为false，即输出 百度 超链接 -->
 <c:out value="<a href='http://www.baidu.com'>百度</a>" escapeXml="false"/>
-
 
 </body>
 </html>
