@@ -14,7 +14,7 @@
 	request.setAttribute("n3", 30);
 	request.setAttribute("n4", 40);
 %>
-<h4>EL表达式支持运算</h4>
+<h4>EL表达式支持的运算</h4>
 ${ n1 + n2 }
 
 <h4>是否相等</h4>
