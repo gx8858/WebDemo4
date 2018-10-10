@@ -5,17 +5,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>import标签</title>
 </head>
 <body>
 
 <h4>import JSTL的方式</h4>
-<c:import url="/jstl/success.jsp" var="i" context="/day13">
+<c:import url="/jstl/success.jsp" var="i" context="/test">
 	<c:param name="username" value="zhangsan"></c:param>
 </c:import>
 
 ${ i }
-
 
 </body>
 </html>
