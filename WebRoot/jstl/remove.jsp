@@ -10,6 +10,7 @@
 <body>
 
 <h4>JSTL的方式</h4>
+
 <!-- 先运行set.jsp，把application域中赋上值，然后运行remove.jsp,你会发现输出没值 -->
 <c:remove var="gao" scope="application" />
 <c:out value="${ gao }" default="没值"></c:out>
