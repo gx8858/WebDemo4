@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    
+<!-- 引入JSTL的标签库 -->
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>    
 <!-- 引入EL的函数库 -->
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>    
@@ -17,14 +17,14 @@
 <c:set var="username" value="abcdefg" scope="page"></c:set>
 
 <h4>EL函数来操作page域内容</h4>
-${ fn:indexOf(username,"de") }
+${ fn:indexOf(username,"de") }          <!-- 输出： 3 -->    
 
-${ fn:startsWith(username,"f") }
+${ fn:startsWith(username,"f") }        <!-- 输出： false -->
 
-${ fn:toUpperCase(username) }
+${ fn:toUpperCase(username) }           <!-- 输出： ABCDEFG -->
 
-${ fn:substringAfter(username,"de") }
-${ fn:substringBefore(username,"de") }
+${ fn:substringAfter(username,"de") }   <!-- 输出： fg -->
+${ fn:substringBefore(username,"de") }  <!-- 输出： abc -->
 
 </body>
 </html>
