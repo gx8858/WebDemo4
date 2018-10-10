@@ -5,12 +5,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>redirect标签</title>
 </head>
 <body>
 
 <h4>JSTL的方式</h4>
-<c:redirect url="/jstl/success.jsp" context="/day13">
+<c:redirect url="/jstl/success.jsp" context="/test">
 	<c:param name="username" value="meimei"></c:param>
 </c:redirect>
 
