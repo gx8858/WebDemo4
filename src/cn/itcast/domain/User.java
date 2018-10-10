@@ -2,6 +2,9 @@ package cn.itcast.domain;
 
 public class User {
 	
+	/**
+	 * UserBean
+	 */
 	private String username;
 	private String password;
 	
