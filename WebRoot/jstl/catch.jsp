@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>catch标签</title>
 </head>
 <body>
 
@@ -18,13 +18,13 @@
 		
 	}
 %>
-
 <c:catch var="e">
 <% 
 	int a = 10/0;
 %>	
 </c:catch>
-${ e.message }
+${ e }            <!-- java.lang.ArithmeticException: / by zero -->
+${ e.message }    <!-- / by zero -->
 
 
 </body>
