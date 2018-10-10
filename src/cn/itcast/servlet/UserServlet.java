@@ -13,7 +13,6 @@ import cn.itcast.domain.User;
 
 /**
  * 查询的所有用户的信息
- * @author Administrator
  */
 public class UserServlet extends HttpServlet {
 	
