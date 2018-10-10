@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>foreach标签</title>
 </head>
 <body>
 
@@ -17,8 +17,8 @@
 <%
 	List<String> list = new ArrayList<String>();
 	list.add("美美");
-	list.add("尹相杰");
-	list.add("高虎");
+	list.add("小凤");
+	list.add("芙蓉");
 	request.setAttribute("list", list);
 %>
 <h4>遍历list集合和数组方式是一样的</h4>
