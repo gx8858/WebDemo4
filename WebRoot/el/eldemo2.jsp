@@ -8,13 +8,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>自定义EL函数前台显示页面</title>
 </head>
 <body>
 
 <h4>使用自己编写EL函数</h4>
 ${ myfn:sayHi("小凤") }
-
 
 
 </body>
