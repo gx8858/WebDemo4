@@ -13,6 +13,6 @@ public class ElDemo {
 	 * @return
 	 */
 	public static String sayHello(String str){
-		return "hello "+str;
+		return "hello " + str;
 	}
 }
