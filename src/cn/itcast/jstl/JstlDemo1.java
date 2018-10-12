@@ -10,8 +10,6 @@ import javax.servlet.jsp.tagext.SimpleTagSupport;
 
 /**
  * 标签没有标签主体内容
- * @author Administrator
- *
  */
 public class JstlDemo1 extends SimpleTagSupport{
 	
