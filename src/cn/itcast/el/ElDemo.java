@@ -2,8 +2,6 @@ package cn.itcast.el;
 
 /**
  * 后台的自定义EL函数
- * @author Administrator
- *
  */
 public class ElDemo {
 	
