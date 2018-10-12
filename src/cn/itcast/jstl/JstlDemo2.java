@@ -8,6 +8,9 @@ import javax.servlet.jsp.PageContext;
 import javax.servlet.jsp.tagext.JspFragment;
 import javax.servlet.jsp.tagext.SimpleTagSupport;
 
+/**
+ * 标签有标签主体内容
+ */
 public class JstlDemo2 extends SimpleTagSupport{
 	
 	private PageContext pc;
