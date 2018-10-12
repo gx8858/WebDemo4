@@ -10,8 +10,6 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 向页面回写coookie
- * @author Administrator
- *
  */
 public class CookieServlet extends HttpServlet {
 	
@@ -24,7 +22,7 @@ public class CookieServlet extends HttpServlet {
 		// 回写到浏览器端
 		response.addCookie(cookie);
 		// 重定向到页面
-		response.sendRedirect(request.getContextPath()+"/jsp/eldemo3.jsp");
+		response.sendRedirect(request.getContextPath() + "/jsp/eldemo3.jsp");
 	}
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
