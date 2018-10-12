@@ -5,25 +5,22 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>if标签</title>
 </head>
 <body>
 <h4>JSTL的方式</h4>
 <c:set var="num" value="10" scope="page"></c:set>
 
-<c:if test="${ num eq 10 }" var="i" scope="page">
+<c:if test="${ num eq 10 }" var="i" scope="page" >
 	num=10
 </c:if>
 
 <!-- 使用i的变量 -->
+${ i }
+
 <c:if test="${ i }">
 	test=true
 </c:if>
-
-
-<myc:out>
-	EL表达式   JSTL
-</myc:out>
 
 </body>
 </html>
