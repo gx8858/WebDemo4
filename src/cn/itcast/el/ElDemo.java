@@ -1,12 +1,12 @@
 package cn.itcast.el;
 
 /**
- * 后台的自定义EL函数
+ * 鍚庡彴鐨勮嚜瀹氫箟EL鍑芥暟
  */
 public class ElDemo {
 	
 	/**
-	 * say hello方法
+	 * say hello鏂规硶
 	 * @param str
 	 * @return
 	 */
